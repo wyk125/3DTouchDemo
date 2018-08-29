@@ -7,57 +7,58 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		184E62681C58BF25004C4E18 /* YPYDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E62661C58BF25004C4E18 /* YPYDTabBarController.m */; };
-		184E626B1C58C03B004C4E18 /* YPYDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E626A1C58C03B004C4E18 /* YPYDHomeViewController.m */; };
-		184E626E1C58C072004C4E18 /* YPYDAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E626D1C58C072004C4E18 /* YPYDAreaViewController.m */; };
-		184E62771C58C208004C4E18 /* YPYDMineUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E62761C58C208004C4E18 /* YPYDMineUViewController.m */; };
-		184E627A1C58C22E004C4E18 /* YPYDShoppingCartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E62791C58C22E004C4E18 /* YPYDShoppingCartController.m */; };
 		184E62901C58C298004C4E18 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E62891C58C298004C4E18 /* UIView+Extension.m */; };
-		184E62941C58C47E004C4E18 /* YPYDNetCountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E62931C58C47E004C4E18 /* YPYDNetCountManager.m */; };
-		184E629B1C58CBC9004C4E18 /* YPYDSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E629A1C58CBC9004C4E18 /* YPYDSearchController.m */; };
-		184E629E1C58D27C004C4E18 /* launchScreenImage1.png in Resources */ = {isa = PBXBuildFile; fileRef = 184E629C1C58D27C004C4E18 /* launchScreenImage1.png */; };
-		184E62A21C58D388004C4E18 /* YPYDPOPTestViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E62A11C58D388004C4E18 /* YPYDPOPTestViewController1.m */; };
-		184E62A51C58D39E004C4E18 /* YPYDPOPTestViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E62A41C58D39E004C4E18 /* YPYDPOPTestViewController2.m */; };
-		18EDB8671C58BCE000FB2D79 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EDB8661C58BCE000FB2D79 /* main.m */; };
-		18EDB86A1C58BCE000FB2D79 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EDB8691C58BCE000FB2D79 /* AppDelegate.m */; };
-		18EDB8751C58BCE000FB2D79 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18EDB8741C58BCE000FB2D79 /* Assets.xcassets */; };
-		18EDB8781C58BCE000FB2D79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18EDB8761C58BCE000FB2D79 /* LaunchScreen.storyboard */; };
+		F26137AF2136F2EA00663B9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F26137A42136F2E900663B9F /* Assets.xcassets */; };
+		F26137B02136F2EA00663B9F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F26137A52136F2E900663B9F /* LaunchScreen.storyboard */; };
+		F26137B12136F2EA00663B9F /* launchScreenImage1.png in Resources */ = {isa = PBXBuildFile; fileRef = F26137A72136F2E900663B9F /* launchScreenImage1.png */; };
+		F26137B22136F2EA00663B9F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F26137AB2136F2E900663B9F /* main.m */; };
+		F26137B32136F2EA00663B9F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F26137AD2136F2E900663B9F /* AppDelegate.m */; };
+		F26137B42136F2EA00663B9F /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F26137AE2136F2E900663B9F /* Info.plist */; };
+		F26137B82136F32B00663B9F /* YPYDNetCountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F26137B62136F32B00663B9F /* YPYDNetCountManager.m */; };
+		F26137CC2136F3C700663B9F /* YPYDSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26137BC2136F3C600663B9F /* YPYDSearchController.m */; };
+		F26137CD2136F3C700663B9F /* YPYDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26137BD2136F3C600663B9F /* YPYDTabBarController.m */; };
+		F26137CE2136F3C700663B9F /* YPYDAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26137BE2136F3C600663B9F /* YPYDAreaViewController.m */; };
+		F26137CF2136F3C700663B9F /* YPYDMineUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26137C12136F3C600663B9F /* YPYDMineUViewController.m */; };
+		F26137D02136F3C700663B9F /* YPYDShoppingCartController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26137C42136F3C600663B9F /* YPYDShoppingCartController.m */; };
+		F26137D12136F3C700663B9F /* YPYDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F26137C52136F3C600663B9F /* YPYDHomeViewController.m */; };
+		F26137D22136F3C700663B9F /* YPYDPOPTestViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = F26137C82136F3C600663B9F /* YPYDPOPTestViewController1.m */; };
+		F26137D32136F3C700663B9F /* YPYDPOPTestViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = F26137C92136F3C600663B9F /* YPYDPOPTestViewController2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		184E62651C58BF25004C4E18 /* YPYDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPYDTabBarController.h; sourceTree = "<group>"; };
-		184E62661C58BF25004C4E18 /* YPYDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPYDTabBarController.m; sourceTree = "<group>"; };
-		184E62691C58C03B004C4E18 /* YPYDHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPYDHomeViewController.h; sourceTree = "<group>"; };
-		184E626A1C58C03B004C4E18 /* YPYDHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPYDHomeViewController.m; sourceTree = "<group>"; };
-		184E626C1C58C072004C4E18 /* YPYDAreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPYDAreaViewController.h; sourceTree = "<group>"; };
-		184E626D1C58C072004C4E18 /* YPYDAreaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPYDAreaViewController.m; sourceTree = "<group>"; };
-		184E62751C58C208004C4E18 /* YPYDMineUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPYDMineUViewController.h; sourceTree = "<group>"; };
-		184E62761C58C208004C4E18 /* YPYDMineUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPYDMineUViewController.m; sourceTree = "<group>"; };
-		184E62781C58C22E004C4E18 /* YPYDShoppingCartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPYDShoppingCartController.h; sourceTree = "<group>"; };
-		184E62791C58C22E004C4E18 /* YPYDShoppingCartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPYDShoppingCartController.m; sourceTree = "<group>"; };
 		184E62881C58C298004C4E18 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		184E62891C58C298004C4E18 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
-		184E62911C58C356004C4E18 /* YPYDPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPYDPrefixHeader.pch; sourceTree = "<group>"; };
-		184E62921C58C47E004C4E18 /* YPYDNetCountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPYDNetCountManager.h; sourceTree = "<group>"; };
-		184E62931C58C47E004C4E18 /* YPYDNetCountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPYDNetCountManager.m; sourceTree = "<group>"; };
-		184E62991C58CBC9004C4E18 /* YPYDSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPYDSearchController.h; sourceTree = "<group>"; };
-		184E629A1C58CBC9004C4E18 /* YPYDSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPYDSearchController.m; sourceTree = "<group>"; };
-		184E629D1C58D27C004C4E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/launchScreenImage1.png; sourceTree = "<group>"; };
-		184E62A01C58D388004C4E18 /* YPYDPOPTestViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPYDPOPTestViewController1.h; sourceTree = "<group>"; };
-		184E62A11C58D388004C4E18 /* YPYDPOPTestViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPYDPOPTestViewController1.m; sourceTree = "<group>"; };
-		184E62A31C58D39E004C4E18 /* YPYDPOPTestViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPYDPOPTestViewController2.h; sourceTree = "<group>"; };
-		184E62A41C58D39E004C4E18 /* YPYDPOPTestViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPYDPOPTestViewController2.m; sourceTree = "<group>"; };
 		18EDB8621C58BCE000FB2D79 /* 3D Touch Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "3D Touch Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		18EDB8661C58BCE000FB2D79 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		18EDB8681C58BCE000FB2D79 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		18EDB8691C58BCE000FB2D79 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18EDB8741C58BCE000FB2D79 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		18EDB8771C58BCE000FB2D79 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		18EDB8791C58BCE000FB2D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18EDB8821C58BCE000FB2D79 /* _D_Touch_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _D_Touch_DemoTests.m; sourceTree = "<group>"; };
 		18EDB8841C58BCE000FB2D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18EDB88D1C58BCE000FB2D79 /* _D_Touch_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _D_Touch_DemoUITests.m; sourceTree = "<group>"; };
 		18EDB88F1C58BCE000FB2D79 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26137A42136F2E900663B9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F26137A62136F2E900663B9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F26137A82136F2E900663B9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/launchScreenImage1.png; sourceTree = "<group>"; };
+		F26137AA2136F2E900663B9F /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F26137AB2136F2E900663B9F /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F26137AC2136F2E900663B9F /* YPYDPrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPYDPrefixHeader.pch; sourceTree = "<group>"; };
+		F26137AD2136F2E900663B9F /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F26137AE2136F2E900663B9F /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F26137B62136F32B00663B9F /* YPYDNetCountManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPYDNetCountManager.m; sourceTree = "<group>"; };
+		F26137B72136F32B00663B9F /* YPYDNetCountManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPYDNetCountManager.h; sourceTree = "<group>"; };
+		F26137BB2136F3C600663B9F /* YPYDMineUViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPYDMineUViewController.h; sourceTree = "<group>"; };
+		F26137BC2136F3C600663B9F /* YPYDSearchController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPYDSearchController.m; sourceTree = "<group>"; };
+		F26137BD2136F3C600663B9F /* YPYDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPYDTabBarController.m; sourceTree = "<group>"; };
+		F26137BE2136F3C600663B9F /* YPYDAreaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPYDAreaViewController.m; sourceTree = "<group>"; };
+		F26137BF2136F3C600663B9F /* YPYDHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPYDHomeViewController.h; sourceTree = "<group>"; };
+		F26137C02136F3C600663B9F /* YPYDShoppingCartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPYDShoppingCartController.h; sourceTree = "<group>"; };
+		F26137C12136F3C600663B9F /* YPYDMineUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPYDMineUViewController.m; sourceTree = "<group>"; };
+		F26137C22136F3C600663B9F /* YPYDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPYDTabBarController.h; sourceTree = "<group>"; };
+		F26137C32136F3C600663B9F /* YPYDSearchController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPYDSearchController.h; sourceTree = "<group>"; };
+		F26137C42136F3C600663B9F /* YPYDShoppingCartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPYDShoppingCartController.m; sourceTree = "<group>"; };
+		F26137C52136F3C600663B9F /* YPYDHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPYDHomeViewController.m; sourceTree = "<group>"; };
+		F26137C62136F3C600663B9F /* YPYDAreaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPYDAreaViewController.h; sourceTree = "<group>"; };
+		F26137C82136F3C600663B9F /* YPYDPOPTestViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPYDPOPTestViewController1.m; sourceTree = "<group>"; };
+		F26137C92136F3C600663B9F /* YPYDPOPTestViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPYDPOPTestViewController2.m; sourceTree = "<group>"; };
+		F26137CA2136F3C600663B9F /* YPYDPOPTestViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPYDPOPTestViewController1.h; sourceTree = "<group>"; };
+		F26137CB2136F3C600663B9F /* YPYDPOPTestViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPYDPOPTestViewController2.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,48 +79,6 @@
 				184E62891C58C298004C4E18 /* UIView+Extension.m */,
 			);
 			path = Categorys;
-			sourceTree = "<group>";
-		};
-		184E62951C58C597004C4E18 /* Main */ = {
-			isa = PBXGroup;
-			children = (
-				18EDB8681C58BCE000FB2D79 /* AppDelegate.h */,
-				18EDB8691C58BCE000FB2D79 /* AppDelegate.m */,
-				184E62921C58C47E004C4E18 /* YPYDNetCountManager.h */,
-				184E62931C58C47E004C4E18 /* YPYDNetCountManager.m */,
-				184E62651C58BF25004C4E18 /* YPYDTabBarController.h */,
-				184E62661C58BF25004C4E18 /* YPYDTabBarController.m */,
-			);
-			name = Main;
-			sourceTree = "<group>";
-		};
-		184E62961C58C5C8004C4E18 /* VC */ = {
-			isa = PBXGroup;
-			children = (
-				184E629F1C58D2EB004C4E18 /* PeekAndPop */,
-				184E626C1C58C072004C4E18 /* YPYDAreaViewController.h */,
-				184E626D1C58C072004C4E18 /* YPYDAreaViewController.m */,
-				184E62781C58C22E004C4E18 /* YPYDShoppingCartController.h */,
-				184E62791C58C22E004C4E18 /* YPYDShoppingCartController.m */,
-				184E62751C58C208004C4E18 /* YPYDMineUViewController.h */,
-				184E62761C58C208004C4E18 /* YPYDMineUViewController.m */,
-				184E62991C58CBC9004C4E18 /* YPYDSearchController.h */,
-				184E629A1C58CBC9004C4E18 /* YPYDSearchController.m */,
-			);
-			name = VC;
-			sourceTree = "<group>";
-		};
-		184E629F1C58D2EB004C4E18 /* PeekAndPop */ = {
-			isa = PBXGroup;
-			children = (
-				184E62691C58C03B004C4E18 /* YPYDHomeViewController.h */,
-				184E626A1C58C03B004C4E18 /* YPYDHomeViewController.m */,
-				184E62A01C58D388004C4E18 /* YPYDPOPTestViewController1.h */,
-				184E62A11C58D388004C4E18 /* YPYDPOPTestViewController1.m */,
-				184E62A31C58D39E004C4E18 /* YPYDPOPTestViewController2.h */,
-				184E62A41C58D39E004C4E18 /* YPYDPOPTestViewController2.m */,
-			);
-			name = PeekAndPop;
 			sourceTree = "<group>";
 		};
 		18EDB8591C58BCE000FB2D79 = {
@@ -143,25 +102,12 @@
 		18EDB8641C58BCE000FB2D79 /* 3D Touch Demo */ = {
 			isa = PBXGroup;
 			children = (
-				184E62961C58C5C8004C4E18 /* VC */,
-				184E62951C58C597004C4E18 /* Main */,
+				F26137A22136F2E900663B9F /* Supporting Files */,
+				F26137B92136F3C600663B9F /* ViewControllers */,
+				F26137B52136F32B00663B9F /* DataManager */,
 				184E627B1C58C298004C4E18 /* Categorys */,
-				18EDB8741C58BCE000FB2D79 /* Assets.xcassets */,
-				184E629C1C58D27C004C4E18 /* launchScreenImage1.png */,
-				18EDB8761C58BCE000FB2D79 /* LaunchScreen.storyboard */,
-				18EDB8791C58BCE000FB2D79 /* Info.plist */,
-				18EDB8651C58BCE000FB2D79 /* Supporting Files */,
 			);
 			path = "3D Touch Demo";
-			sourceTree = "<group>";
-		};
-		18EDB8651C58BCE000FB2D79 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				184E62911C58C356004C4E18 /* YPYDPrefixHeader.pch */,
-				18EDB8661C58BCE000FB2D79 /* main.m */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		18EDB8811C58BCE000FB2D79 /* 3D Touch DemoTests */ = {
@@ -180,6 +126,93 @@
 				18EDB88F1C58BCE000FB2D79 /* Info.plist */,
 			);
 			path = "3D Touch DemoUITests";
+			sourceTree = "<group>";
+		};
+		F26137A22136F2E900663B9F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F26137A92136F2E900663B9F /* Main */,
+				F26137A32136F2E900663B9F /* Others */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F26137A32136F2E900663B9F /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				F26137A42136F2E900663B9F /* Assets.xcassets */,
+				F26137A52136F2E900663B9F /* LaunchScreen.storyboard */,
+				F26137A72136F2E900663B9F /* launchScreenImage1.png */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		F26137A92136F2E900663B9F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F26137AA2136F2E900663B9F /* AppDelegate.h */,
+				F26137AD2136F2E900663B9F /* AppDelegate.m */,
+				F26137AE2136F2E900663B9F /* Info.plist */,
+				F26137AB2136F2E900663B9F /* main.m */,
+				F26137AC2136F2E900663B9F /* YPYDPrefixHeader.pch */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F26137B52136F32B00663B9F /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				F26137B62136F32B00663B9F /* YPYDNetCountManager.m */,
+				F26137B72136F32B00663B9F /* YPYDNetCountManager.h */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		F26137B92136F3C600663B9F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				F26137BA2136F3C600663B9F /* TabBarVC */,
+				F26137D42136F3EB00663B9F /* BusinessVC */,
+				F26137C72136F3C600663B9F /* PopTestVC */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		F26137BA2136F3C600663B9F /* TabBarVC */ = {
+			isa = PBXGroup;
+			children = (
+				F26137C22136F3C600663B9F /* YPYDTabBarController.h */,
+				F26137BD2136F3C600663B9F /* YPYDTabBarController.m */,
+			);
+			path = TabBarVC;
+			sourceTree = "<group>";
+		};
+		F26137C72136F3C600663B9F /* PopTestVC */ = {
+			isa = PBXGroup;
+			children = (
+				F26137CA2136F3C600663B9F /* YPYDPOPTestViewController1.h */,
+				F26137C82136F3C600663B9F /* YPYDPOPTestViewController1.m */,
+				F26137CB2136F3C600663B9F /* YPYDPOPTestViewController2.h */,
+				F26137C92136F3C600663B9F /* YPYDPOPTestViewController2.m */,
+			);
+			path = PopTestVC;
+			sourceTree = "<group>";
+		};
+		F26137D42136F3EB00663B9F /* BusinessVC */ = {
+			isa = PBXGroup;
+			children = (
+				F26137C62136F3C600663B9F /* YPYDAreaViewController.h */,
+				F26137BE2136F3C600663B9F /* YPYDAreaViewController.m */,
+				F26137BF2136F3C600663B9F /* YPYDHomeViewController.h */,
+				F26137C52136F3C600663B9F /* YPYDHomeViewController.m */,
+				F26137BB2136F3C600663B9F /* YPYDMineUViewController.h */,
+				F26137C12136F3C600663B9F /* YPYDMineUViewController.m */,
+				F26137C32136F3C600663B9F /* YPYDSearchController.h */,
+				F26137BC2136F3C600663B9F /* YPYDSearchController.m */,
+				F26137C02136F3C600663B9F /* YPYDShoppingCartController.h */,
+				F26137C42136F3C600663B9F /* YPYDShoppingCartController.m */,
+			);
+			path = BusinessVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,9 +274,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184E629E1C58D27C004C4E18 /* launchScreenImage1.png in Resources */,
-				18EDB8781C58BCE000FB2D79 /* LaunchScreen.storyboard in Resources */,
-				18EDB8751C58BCE000FB2D79 /* Assets.xcassets in Resources */,
+				F26137B42136F2EA00663B9F /* Info.plist in Resources */,
+				F26137B12136F2EA00663B9F /* launchScreenImage1.png in Resources */,
+				F26137B02136F2EA00663B9F /* LaunchScreen.storyboard in Resources */,
+				F26137AF2136F2EA00663B9F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,38 +288,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				184E62A21C58D388004C4E18 /* YPYDPOPTestViewController1.m in Sources */,
-				184E626E1C58C072004C4E18 /* YPYDAreaViewController.m in Sources */,
-				184E626B1C58C03B004C4E18 /* YPYDHomeViewController.m in Sources */,
-				184E62941C58C47E004C4E18 /* YPYDNetCountManager.m in Sources */,
+				F26137D22136F3C700663B9F /* YPYDPOPTestViewController1.m in Sources */,
+				F26137D32136F3C700663B9F /* YPYDPOPTestViewController2.m in Sources */,
+				F26137B22136F2EA00663B9F /* main.m in Sources */,
+				F26137D02136F3C700663B9F /* YPYDShoppingCartController.m in Sources */,
+				F26137CE2136F3C700663B9F /* YPYDAreaViewController.m in Sources */,
+				F26137CC2136F3C700663B9F /* YPYDSearchController.m in Sources */,
 				184E62901C58C298004C4E18 /* UIView+Extension.m in Sources */,
-				18EDB86A1C58BCE000FB2D79 /* AppDelegate.m in Sources */,
-				184E62681C58BF25004C4E18 /* YPYDTabBarController.m in Sources */,
-				184E62771C58C208004C4E18 /* YPYDMineUViewController.m in Sources */,
-				184E629B1C58CBC9004C4E18 /* YPYDSearchController.m in Sources */,
-				184E62A51C58D39E004C4E18 /* YPYDPOPTestViewController2.m in Sources */,
-				18EDB8671C58BCE000FB2D79 /* main.m in Sources */,
-				184E627A1C58C22E004C4E18 /* YPYDShoppingCartController.m in Sources */,
+				F26137D12136F3C700663B9F /* YPYDHomeViewController.m in Sources */,
+				F26137B32136F2EA00663B9F /* AppDelegate.m in Sources */,
+				F26137CF2136F3C700663B9F /* YPYDMineUViewController.m in Sources */,
+				F26137B82136F32B00663B9F /* YPYDNetCountManager.m in Sources */,
+				F26137CD2136F3C700663B9F /* YPYDTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		184E629C1C58D27C004C4E18 /* launchScreenImage1.png */ = {
+		F26137A52136F2E900663B9F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				184E629D1C58D27C004C4E18 /* Base */,
-			);
-			name = launchScreenImage1.png;
-			sourceTree = "<group>";
-		};
-		18EDB8761C58BCE000FB2D79 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18EDB8771C58BCE000FB2D79 /* Base */,
+				F26137A62136F2E900663B9F /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		F26137A72136F2E900663B9F /* launchScreenImage1.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F26137A82136F2E900663B9F /* Base */,
+			);
+			name = launchScreenImage1.png;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

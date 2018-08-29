@@ -8,7 +8,6 @@
 
 #import "YPYDSearchController.h"
 
-
 @implementation YPYDSearchController
 
 - (void)viewDidLoad
