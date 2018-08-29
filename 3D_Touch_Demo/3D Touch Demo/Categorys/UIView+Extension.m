@@ -1,6 +1,6 @@
 //
 //  UIView+Extension.m
-//  优品悦动
+//  3D Touch Demo
 //
 //  Created by 王永康 on 15/7/16.
 //  Copyright (c) 2015年 王永康. All rights reserved.
@@ -61,8 +61,6 @@
 
 - (void)setSize:(CGSize)size
 {
-    //    self.width = size.width;
-    //    self.height = size.height;
     CGRect frame = self.frame;
     frame.size = size;
     self.frame = frame;

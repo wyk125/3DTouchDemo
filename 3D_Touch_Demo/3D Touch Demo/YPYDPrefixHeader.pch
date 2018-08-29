@@ -1,6 +1,6 @@
 //
 //  YPYDPrefixHeader.pch
-//  优品悦动
+//  3D Touch Demo
 //
 //  Created by 王永康 on 15/7/16.
 //  Copyright (c) 2015年 王永康. All rights reserved.
@@ -10,9 +10,9 @@
 #ifndef _____YPYDPrefixHeader_pch
 #define _____YPYDPrefixHeader_pch
 
-#ifndef __IPHONE_8_0  //该软件适用于ios8 以后的高版本iOS系统
+#ifndef __IPHONE_9_0  //该软件适用于ios9 以后的高版本iOS系统
 
-//#warning "This project uses features only available in SDK 7.0 and later."
+//#warning "This project uses features only available in SDK 9.0 and later."
 #endif
 
 #if __LP64__ || (TARGET_OS_EMBEDDED && !TARGET_OS_IPHONE) || TARGET_OS_WIN32 || NS_BUILD_32_LIKE_64
@@ -24,8 +24,6 @@ typedef int NSInteger;
 typedef unsigned int NSUInteger;
 #endif
 
-
-
 #define statusBar 20   //状态栏 高度
 #define TabBarHeight 49 //tabbar 高度
 #define TopScHeight 44   //navbar 高度
@@ -35,31 +33,26 @@ typedef unsigned int NSUInteger;
 #define ScreenWidth [UIScreen mainScreen].bounds.size.width //屏幕的宽度
 #define ButtonFont 17  //按钮的字体字号
 
-//支付宝 调用类
-//#import <AlipaySDK/AlipaySDK.h>
-
-
 //主要的系统框架
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
 
 //类扩展
 #import "UITabBar+badge.h"
-#import "UIImage+Extension.h"
 #import "UIView+Extension.h"
-#import "UIBarButtonItem+Extension.h"
+#import "UIImage+Extension.h"
 //中文字体扩展
 #import "NSArray+Ext.h"
 #import "YPYDNetCountManager.h"
 
 //设置宏定义
-#import "UITextField+Extension.h"
 
 #ifdef DEBUG //调试状态，打开 LOG功能
 #define YPYDLog(...) NSLog(__VA_ARGS__)
 #else
 #define YPYDLog(...)
 #endif
+
 //5.rgb颜色转换（16进制->10进制）
 #define UIColorFromRGB(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
 //导航栏标题的字体
@@ -73,9 +66,6 @@ typedef unsigned int NSUInteger;
 
 //随机色
 #define YPYDRandomColor ([UIColor colorWithHue:arc4random_uniform(256)/255.0 saturation:arc4random_uniform(256)/255.0  brightness:arc4random_uniform(256)/255.0  alpha:1.0])
-
-// Include any system framework and library headers here that should be included in all compilation units.
-// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
 
 
 #endif

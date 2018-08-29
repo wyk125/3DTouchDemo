@@ -1,6 +1,6 @@
 //
 //  YPYDTabBarController.m
-//  优品悦动
+//  3D Touch Demo
 //
 //  Created by 王永康 on 15/7/16.
 //  Copyright (c) 2015年 王永康. All rights reserved.
@@ -56,6 +56,7 @@
     //添加我的专区控制器   目前不跳转
     YPYDAreaViewController * areaController = [[YPYDAreaViewController alloc] init];
     [self addOneChildVc:areaController title:@"我的专区" imageName:@"tabbar_area" selectedImageName:@"tabbar_area_selected"];
+    
     YPYDShoppingCartController * shoppingCart = [[YPYDShoppingCartController alloc] init];
     [self addOneChildVc:shoppingCart title:@"购物车" imageName:@"tabbar_shoppingcart" selectedImageName:@"tabbar_shoppingcart_selected"];
     
@@ -112,8 +113,6 @@
     [self addChildViewController:nav];
 }
 
-
-
 // 3DTouch
 - (void)applicationShortcutItemResponse
 {
@@ -124,7 +123,6 @@
     //    {
     //        return;
     //    }
-    //    else
     
     //首页
     if([ sharedNetCountManager.applicationShortcutItemTitle isEqualToString:@"YPYD.UITouchText.home"])

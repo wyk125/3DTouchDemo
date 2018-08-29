@@ -1,6 +1,6 @@
 //
 //  UITabBar+badge.h
-//  优品悦动
+//  3D Touch Demo
 //
 //  Created by 王永康 on 15/8/13.
 //  Copyright (c) 2015年 王永康. All rights reserved.

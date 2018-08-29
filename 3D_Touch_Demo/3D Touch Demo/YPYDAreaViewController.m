@@ -3,7 +3,7 @@
 //  3D Touch Demo
 //
 //  Created by 王永康 on 16/1/27.
-//  Copyright © 2016年 北京优品悦动科贸有限公司. All rights reserved.
+//  Copyright © 2016年 王永康. All rights reserved.
 //
 
 #import "YPYDAreaViewController.h"
@@ -38,33 +38,12 @@
     UITouch *touch = [[event allTouches] anyObject];
     _forceLab.text = [NSString stringWithFormat:@"当前压力值为: %f",touch.force];
     //   YPYDLog(@"最大压力值  %f",touch.maximumPossibleForce);最大压力值  6.666667
-    if (touch.force>0.2)
+    if (touch.force > 0.2)
     {
         _lab.font = [UIFont systemFontOfSize:20*touch.force];
         _lab.textColor = YPYDColor(255*touch.force/6.5, 0, 0, 1);
     }
 }
 
-//
-///*! To be overridden as needed to provide custom behavior when the environment's traits change. */
-//- (void)traitCollectionDidChange:(nullable UITraitCollection *)previousTraitCollection NS_AVAILABLE_IOS(8_0);
-////
-//+ (UITraitCollection *)traitCollectionWithForceTouchCapability:(UIForceTouchCapability)capability NS_AVAILABLE_IOS(9_0);
-//@property (nonatomic, readonly) UIForceTouchCapability forceTouchCapability NS_AVAILABLE_IOS(9_0); // unspecified: UIForceTouchCapabilityUnknown
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
-/*
- #pragma mark - Navigation
- 
- // In a storyboard-based application, you will often want to do a little preparation before navigation
- - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
- // Get the new view controller using [segue destinationViewController].
- // Pass the selected object to the new view controller.
- }
- */
 
 @end

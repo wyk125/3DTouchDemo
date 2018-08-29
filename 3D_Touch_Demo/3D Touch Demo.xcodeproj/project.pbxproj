@@ -14,11 +14,8 @@
 		184E62771C58C208004C4E18 /* YPYDMineUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E62761C58C208004C4E18 /* YPYDMineUViewController.m */; };
 		184E627A1C58C22E004C4E18 /* YPYDShoppingCartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E62791C58C22E004C4E18 /* YPYDShoppingCartController.m */; };
 		184E628A1C58C298004C4E18 /* NSArray+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E627D1C58C298004C4E18 /* NSArray+Ext.m */; };
-		184E628B1C58C298004C4E18 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E627F1C58C298004C4E18 /* UIBarButtonItem+Extension.m */; };
 		184E628C1C58C298004C4E18 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E62811C58C298004C4E18 /* UIImage+Extension.m */; };
 		184E628D1C58C298004C4E18 /* UITabBar+badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E62831C58C298004C4E18 /* UITabBar+badge.m */; };
-		184E628E1C58C298004C4E18 /* UITextField+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E62851C58C298004C4E18 /* UITextField+Extension.m */; };
-		184E628F1C58C298004C4E18 /* UITextView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E62871C58C298004C4E18 /* UITextView+Extension.m */; };
 		184E62901C58C298004C4E18 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E62891C58C298004C4E18 /* UIView+Extension.m */; };
 		184E62941C58C47E004C4E18 /* YPYDNetCountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E62931C58C47E004C4E18 /* YPYDNetCountManager.m */; };
 		184E629B1C58CBC9004C4E18 /* YPYDSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E629A1C58CBC9004C4E18 /* YPYDSearchController.m */; };
@@ -46,16 +43,10 @@
 		184E62791C58C22E004C4E18 /* YPYDShoppingCartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPYDShoppingCartController.m; sourceTree = "<group>"; };
 		184E627C1C58C298004C4E18 /* NSArray+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Ext.h"; sourceTree = "<group>"; };
 		184E627D1C58C298004C4E18 /* NSArray+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Ext.m"; sourceTree = "<group>"; };
-		184E627E1C58C298004C4E18 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
-		184E627F1C58C298004C4E18 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		184E62801C58C298004C4E18 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
 		184E62811C58C298004C4E18 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		184E62821C58C298004C4E18 /* UITabBar+badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+badge.h"; sourceTree = "<group>"; };
 		184E62831C58C298004C4E18 /* UITabBar+badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+badge.m"; sourceTree = "<group>"; };
-		184E62841C58C298004C4E18 /* UITextField+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+Extension.h"; sourceTree = "<group>"; };
-		184E62851C58C298004C4E18 /* UITextField+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+Extension.m"; sourceTree = "<group>"; };
-		184E62861C58C298004C4E18 /* UITextView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextView+Extension.h"; sourceTree = "<group>"; };
-		184E62871C58C298004C4E18 /* UITextView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextView+Extension.m"; sourceTree = "<group>"; };
 		184E62881C58C298004C4E18 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		184E62891C58C298004C4E18 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		184E62911C58C356004C4E18 /* YPYDPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPYDPrefixHeader.pch; sourceTree = "<group>"; };
@@ -97,23 +88,17 @@
 			children = (
 				184E627C1C58C298004C4E18 /* NSArray+Ext.h */,
 				184E627D1C58C298004C4E18 /* NSArray+Ext.m */,
-				184E627E1C58C298004C4E18 /* UIBarButtonItem+Extension.h */,
-				184E627F1C58C298004C4E18 /* UIBarButtonItem+Extension.m */,
 				184E62801C58C298004C4E18 /* UIImage+Extension.h */,
 				184E62811C58C298004C4E18 /* UIImage+Extension.m */,
 				184E62821C58C298004C4E18 /* UITabBar+badge.h */,
 				184E62831C58C298004C4E18 /* UITabBar+badge.m */,
-				184E62841C58C298004C4E18 /* UITextField+Extension.h */,
-				184E62851C58C298004C4E18 /* UITextField+Extension.m */,
-				184E62861C58C298004C4E18 /* UITextView+Extension.h */,
-				184E62871C58C298004C4E18 /* UITextView+Extension.m */,
 				184E62881C58C298004C4E18 /* UIView+Extension.h */,
 				184E62891C58C298004C4E18 /* UIView+Extension.m */,
 			);
 			path = Categorys;
 			sourceTree = "<group>";
 		};
-		184E62951C58C597004C4E18 /* 主要 */ = {
+		184E62951C58C597004C4E18 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				18EDB8681C58BCE000FB2D79 /* AppDelegate.h */,
@@ -125,7 +110,7 @@
 				184E62651C58BF25004C4E18 /* YPYDTabBarController.h */,
 				184E62661C58BF25004C4E18 /* YPYDTabBarController.m */,
 			);
-			name = "主要";
+			name = Main;
 			sourceTree = "<group>";
 		};
 		184E62961C58C5C8004C4E18 /* VC */ = {
@@ -179,7 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				184E62961C58C5C8004C4E18 /* VC */,
-				184E62951C58C597004C4E18 /* 主要 */,
+				184E62951C58C597004C4E18 /* Main */,
 				184E627B1C58C298004C4E18 /* Categorys */,
 				18EDB8741C58BCE000FB2D79 /* Assets.xcassets */,
 				184E629C1C58D27C004C4E18 /* launchScreenImage1.png */,
@@ -244,12 +229,12 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = YPYD;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = "北京优品悦动科贸有限公司";
 				TargetAttributes = {
 					18EDB8611C58BCE000FB2D79 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = AU6P99EDAG;
+						DevelopmentTeam = DUB45PC663;
 					};
 				};
 			};
@@ -290,15 +275,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				184E62A21C58D388004C4E18 /* YPYDPOPTestViewController1.m in Sources */,
-				184E628B1C58C298004C4E18 /* UIBarButtonItem+Extension.m in Sources */,
-				184E628E1C58C298004C4E18 /* UITextField+Extension.m in Sources */,
 				184E626E1C58C072004C4E18 /* YPYDAreaViewController.m in Sources */,
 				184E626B1C58C03B004C4E18 /* YPYDHomeViewController.m in Sources */,
 				184E62941C58C47E004C4E18 /* YPYDNetCountManager.m in Sources */,
 				184E62901C58C298004C4E18 /* UIView+Extension.m in Sources */,
 				184E62671C58BF25004C4E18 /* YPYDNavigationController.m in Sources */,
 				18EDB86A1C58BCE000FB2D79 /* AppDelegate.m in Sources */,
-				184E628F1C58C298004C4E18 /* UITextView+Extension.m in Sources */,
 				184E62681C58BF25004C4E18 /* YPYDTabBarController.m in Sources */,
 				184E62771C58C208004C4E18 /* YPYDMineUViewController.m in Sources */,
 				184E629B1C58CBC9004C4E18 /* YPYDSearchController.m in Sources */,
@@ -341,13 +323,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -384,13 +376,23 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -418,11 +420,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = DUB45PC663;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/3D Touch Demo/YPYDPrefixHeader.pch";
 				INFOPLIST_FILE = "3D Touch Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.upfood.YouPinJuGou;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyk.3DTouchDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -432,11 +435,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = DUB45PC663;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/3D Touch Demo/YPYDPrefixHeader.pch";
 				INFOPLIST_FILE = "3D Touch Demo/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.upfood.YouPinJuGou;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyk.3DTouchDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

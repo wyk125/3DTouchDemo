@@ -3,7 +3,7 @@
 //  3D Touch Demo
 //
 //  Created by 王永康 on 16/1/27.
-//  Copyright © 2016年 北京优品悦动科贸有限公司. All rights reserved.
+//  Copyright © 2016年 王永康. All rights reserved.
 
 //整体tabbar控制器
 #import "YPYDTabBarController.h"
@@ -26,28 +26,15 @@
     self.window  = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.rootViewController = [[YPYDTabBarController alloc] init];
     [self.window makeKeyAndVisible];
-    
     [self configShortCutItems];
-    
-    
-    //  好多 地方都说要加判断，我最近的测试 时，加了这个判断后，app处于未开启状态时， 点击标签 进入app 并不能进入 预设 的功能页面
-//    if (launchOptions[@"UIApplicationLaunchOptionsShortcutItemKey"] == nil)
-//    {
-//        return YES;
-//    } else {
-//        return NO;
-//    }
-    
     return YES;
 }
 /** 创建shortcutItems */
-- (void)configShortCutItems {
+- (void)configShortCutItems
+{
     NSMutableArray *shortcutItems = [NSMutableArray array];
-   
     UIApplicationShortcutItem *item1 = [[UIApplicationShortcutItem alloc]initWithType:@"YPYD.UITouchText.home" localizedTitle:@"测试1" localizedSubtitle:nil icon:[UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeHome] userInfo:nil];
-    
-    UIApplicationShortcutItem *item2 = [[UIApplicationShortcutItem alloc]initWithType:@"YPYD.UITouchText.search" localizedTitle:@"测试2" localizedSubtitle:@"测试2副标题" icon:[UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeSearch]
- userInfo:nil];
+    UIApplicationShortcutItem *item2 = [[UIApplicationShortcutItem alloc]initWithType:@"YPYD.UITouchText.search" localizedTitle:@"测试2" localizedSubtitle:@"测试2副标题" icon:[UIApplicationShortcutIcon iconWithType:UIApplicationShortcutIconTypeSearch] userInfo:nil];
     [shortcutItems addObject:item2];
     [shortcutItems addObject:item1];
     [[UIApplication sharedApplication] setShortcutItems:shortcutItems];
@@ -142,7 +129,6 @@
     }
     
     // Create the coordinator and store
-    
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
     NSURL *storeURL = [[self applicationDocumentsDirectory] URLByAppendingPathComponent:@"_D_Touch_Demo.sqlite"];
     NSError *error = nil;
@@ -180,8 +166,8 @@
 }
 
 #pragma mark - Core Data Saving support
-
-- (void)saveContext {
+- (void)saveContext
+{
     NSManagedObjectContext *managedObjectContext = self.managedObjectContext;
     if (managedObjectContext != nil) {
         NSError *error = nil;
