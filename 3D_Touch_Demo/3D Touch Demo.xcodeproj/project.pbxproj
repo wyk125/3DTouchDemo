@@ -7,15 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		184E62671C58BF25004C4E18 /* YPYDNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E62641C58BF25004C4E18 /* YPYDNavigationController.m */; };
 		184E62681C58BF25004C4E18 /* YPYDTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E62661C58BF25004C4E18 /* YPYDTabBarController.m */; };
 		184E626B1C58C03B004C4E18 /* YPYDHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E626A1C58C03B004C4E18 /* YPYDHomeViewController.m */; };
 		184E626E1C58C072004C4E18 /* YPYDAreaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E626D1C58C072004C4E18 /* YPYDAreaViewController.m */; };
 		184E62771C58C208004C4E18 /* YPYDMineUViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E62761C58C208004C4E18 /* YPYDMineUViewController.m */; };
 		184E627A1C58C22E004C4E18 /* YPYDShoppingCartController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E62791C58C22E004C4E18 /* YPYDShoppingCartController.m */; };
-		184E628A1C58C298004C4E18 /* NSArray+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E627D1C58C298004C4E18 /* NSArray+Ext.m */; };
-		184E628C1C58C298004C4E18 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E62811C58C298004C4E18 /* UIImage+Extension.m */; };
-		184E628D1C58C298004C4E18 /* UITabBar+badge.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E62831C58C298004C4E18 /* UITabBar+badge.m */; };
 		184E62901C58C298004C4E18 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E62891C58C298004C4E18 /* UIView+Extension.m */; };
 		184E62941C58C47E004C4E18 /* YPYDNetCountManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E62931C58C47E004C4E18 /* YPYDNetCountManager.m */; };
 		184E629B1C58CBC9004C4E18 /* YPYDSearchController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184E629A1C58CBC9004C4E18 /* YPYDSearchController.m */; };
@@ -29,8 +25,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		184E62631C58BF25004C4E18 /* YPYDNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPYDNavigationController.h; sourceTree = "<group>"; };
-		184E62641C58BF25004C4E18 /* YPYDNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPYDNavigationController.m; sourceTree = "<group>"; };
 		184E62651C58BF25004C4E18 /* YPYDTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPYDTabBarController.h; sourceTree = "<group>"; };
 		184E62661C58BF25004C4E18 /* YPYDTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPYDTabBarController.m; sourceTree = "<group>"; };
 		184E62691C58C03B004C4E18 /* YPYDHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPYDHomeViewController.h; sourceTree = "<group>"; };
@@ -41,12 +35,6 @@
 		184E62761C58C208004C4E18 /* YPYDMineUViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPYDMineUViewController.m; sourceTree = "<group>"; };
 		184E62781C58C22E004C4E18 /* YPYDShoppingCartController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YPYDShoppingCartController.h; sourceTree = "<group>"; };
 		184E62791C58C22E004C4E18 /* YPYDShoppingCartController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YPYDShoppingCartController.m; sourceTree = "<group>"; };
-		184E627C1C58C298004C4E18 /* NSArray+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Ext.h"; sourceTree = "<group>"; };
-		184E627D1C58C298004C4E18 /* NSArray+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Ext.m"; sourceTree = "<group>"; };
-		184E62801C58C298004C4E18 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
-		184E62811C58C298004C4E18 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
-		184E62821C58C298004C4E18 /* UITabBar+badge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+badge.h"; sourceTree = "<group>"; };
-		184E62831C58C298004C4E18 /* UITabBar+badge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+badge.m"; sourceTree = "<group>"; };
 		184E62881C58C298004C4E18 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		184E62891C58C298004C4E18 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		184E62911C58C356004C4E18 /* YPYDPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YPYDPrefixHeader.pch; sourceTree = "<group>"; };
@@ -86,12 +74,6 @@
 		184E627B1C58C298004C4E18 /* Categorys */ = {
 			isa = PBXGroup;
 			children = (
-				184E627C1C58C298004C4E18 /* NSArray+Ext.h */,
-				184E627D1C58C298004C4E18 /* NSArray+Ext.m */,
-				184E62801C58C298004C4E18 /* UIImage+Extension.h */,
-				184E62811C58C298004C4E18 /* UIImage+Extension.m */,
-				184E62821C58C298004C4E18 /* UITabBar+badge.h */,
-				184E62831C58C298004C4E18 /* UITabBar+badge.m */,
 				184E62881C58C298004C4E18 /* UIView+Extension.h */,
 				184E62891C58C298004C4E18 /* UIView+Extension.m */,
 			);
@@ -105,8 +87,6 @@
 				18EDB8691C58BCE000FB2D79 /* AppDelegate.m */,
 				184E62921C58C47E004C4E18 /* YPYDNetCountManager.h */,
 				184E62931C58C47E004C4E18 /* YPYDNetCountManager.m */,
-				184E62631C58BF25004C4E18 /* YPYDNavigationController.h */,
-				184E62641C58BF25004C4E18 /* YPYDNavigationController.m */,
 				184E62651C58BF25004C4E18 /* YPYDTabBarController.h */,
 				184E62661C58BF25004C4E18 /* YPYDTabBarController.m */,
 			);
@@ -279,17 +259,13 @@
 				184E626B1C58C03B004C4E18 /* YPYDHomeViewController.m in Sources */,
 				184E62941C58C47E004C4E18 /* YPYDNetCountManager.m in Sources */,
 				184E62901C58C298004C4E18 /* UIView+Extension.m in Sources */,
-				184E62671C58BF25004C4E18 /* YPYDNavigationController.m in Sources */,
 				18EDB86A1C58BCE000FB2D79 /* AppDelegate.m in Sources */,
 				184E62681C58BF25004C4E18 /* YPYDTabBarController.m in Sources */,
 				184E62771C58C208004C4E18 /* YPYDMineUViewController.m in Sources */,
 				184E629B1C58CBC9004C4E18 /* YPYDSearchController.m in Sources */,
-				184E628C1C58C298004C4E18 /* UIImage+Extension.m in Sources */,
 				184E62A51C58D39E004C4E18 /* YPYDPOPTestViewController2.m in Sources */,
 				18EDB8671C58BCE000FB2D79 /* main.m in Sources */,
-				184E628A1C58C298004C4E18 /* NSArray+Ext.m in Sources */,
 				184E627A1C58C22E004C4E18 /* YPYDShoppingCartController.m in Sources */,
-				184E628D1C58C298004C4E18 /* UITabBar+badge.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

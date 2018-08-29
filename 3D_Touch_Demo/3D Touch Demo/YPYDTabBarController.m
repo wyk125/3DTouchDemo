@@ -6,37 +6,39 @@
 //  Copyright (c) 2015年 王永康. All rights reserved.
 //
 
-//主控制器
-#import "YPYDTabBarController.h"
-//导航控制器
-#import "YPYDNavigationController.h"
-//首页控制器
-#import "YPYDHomeViewController.h"
-//专区控制器
-#import "YPYDAreaViewController.h"
 
-//购物车
-#import "YPYDShoppingCartController.h"
-//我的U
+#import "YPYDTabBarController.h"         //!<主控制器
+#import "YPYDHomeViewController.h"       //!<首页控制器
+#import "YPYDAreaViewController.h"       //!<专区控制器
+#import "YPYDShoppingCartController.h"   //!<购物车
+#import "YPYDMineUViewController.h"      //!<我的U
+#import "YPYDSearchController.h"         //!<搜索
 
-#import "YPYDMineUViewController.h"
-
-#import "YPYDSearchController.h"
-
-@interface YPYDTabBarController ()<UITabBarControllerDelegate>
+@interface YPYDTabBarController () <UITabBarControllerDelegate>
 
 @end
 
 @implementation YPYDTabBarController
 
+- (void)dealloc
+{
+    [[NSNotificationCenter defaultCenter] removeObserver:self name:@"YPYD.UITouchText.home" object:nil];
+    
+    
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationShortcutItemResponse) name:@"YPYD.UITouchText.home" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationShortcutItemResponse) name:@"YPYD.UITouchText.search" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationShortcutItemResponse) name:@"YPYD.UITouchText.cart" object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationShortcutItemResponse) name:@"YPYD.UITouchText.myU" object:nil];
+}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     
-    self.view.backgroundColor = [UIColor redColor];
     //添加子控制器
     [self addAllChildVcs];
     
+    //添加点击监听
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationShortcutItemResponse) name:@"YPYD.UITouchText.home" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationShortcutItemResponse) name:@"YPYD.UITouchText.search" object:nil];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(applicationShortcutItemResponse) name:@"YPYD.UITouchText.cart" object:nil];
@@ -85,7 +87,7 @@
     //设置常态的图片
     if (![imageName isEqualToString:@""])
     {
-        childVc.tabBarItem.image = [UIImage imageWithName:imageName];
+        childVc.tabBarItem.image = [UIImage imageNamed:imageName];
     }
     //设置常态的字体字号 、颜色
     NSMutableDictionary * textAttrs = [NSMutableDictionary dictionary];
@@ -102,13 +104,12 @@
     UIImage * selectedImage;
     if (![selectedImageName isEqualToString:@""])
     {
-        selectedImage =  [UIImage imageWithName:selectedImageName];
+        selectedImage =  [UIImage imageNamed:selectedImageName];
     }
     //在选中时，要想显示原图，就必须得告诉电脑，不要渲染
     childVc.tabBarItem.selectedImage = [selectedImage imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
     self.tabBar.tintColor = [UIColor colorWithRed:255/255 green:138/255 blue:0/255 alpha:1];
-    YPYDNavigationController * nav = [[YPYDNavigationController alloc] initWithRootViewController:childVc];
-    
+    UINavigationController * nav = [[UINavigationController alloc] initWithRootViewController:childVc];
     //添加控制器到TabBar控制器
     [self addChildViewController:nav];
 }
@@ -118,7 +119,7 @@
 {
     YPYDNetCountManager * sharedNetCountManager = [YPYDNetCountManager sharedNetCountManager];
     // 配合系统  判断是否已经完成登录方法
-    //    YPYDLog(@"netGoodsListCount  %d", sharedNetCountManager.hadAutoLogin);
+    //    NSLog(@"netGoodsListCount  %d", sharedNetCountManager.hadAutoLogin);
     //    if (!sharedNetCountManager.hadAutoLogin)
     //    {
     //        return;
@@ -137,7 +138,7 @@
         
         YPYDSearchController * searchController = [[YPYDSearchController alloc] init];
         searchController.navigationItem.title = @"搜索";
-        YPYDLog(@"self.selectedViewController  %@", self.selectedViewController.childViewControllers[0]);
+        NSLog(@"self.selectedViewController  %@", self.selectedViewController.childViewControllers[0]);
         [self.selectedViewController.childViewControllers[0].navigationController pushViewController:searchController animated:YES];
     }
     //购物车
